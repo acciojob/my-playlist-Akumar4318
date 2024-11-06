@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.playlist{
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: white;
+    /* padding: 5px; */
+    margin: 20px;
+}
+.head{
+    padding-top: 10px;
+    text-align: center;
+}
+.list{
+    list-style-type: none;
+    margin: 30px;
+}
+body{
+    background-color:  rgb(204, 204, 204);
+}
+.head2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section{
+    border: solid black 1px;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    /* display: flex; */
+     /* justify-content: center; */
+    /* flex-direction: column;  */
+    
+    
+}
+.player_one{
+    background-color: rgb(255, 255, 255); 
+    
+    height: 250px;
+    width:250px;
+    margin-left: 50px;
+
+  
+    
+
+}
+.player_two{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+      border-radius:30px;
+      width: 100%;
+
+}
